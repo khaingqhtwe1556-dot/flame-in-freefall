@@ -95,3 +95,13 @@ Note unclear labels, missed links, or misunderstandings before presenting the ex
 ## Research reference
 
 See [`Data resources.md`](Data%20resources.md) for the source-grounded research guide. The PSI file inventories were reviewed as metadata only; raw data files were not downloaded.
+
+## AI assistance acknowledgement
+
+Parts of this project's code, documentation, and UI copy were drafted with AI coding
+assistants (OpenCode / Claude Code) under human review. Every change was verified by the
+lint, test, and build commands listed above. No AI image, video, or audio generator was
+used: all visual assets are original SVGs and procedurally generated Three.js geometry,
+and the demo recording is a screen capture of the running application. The application
+itself ships no LLM, chatbot, foundation model, or vector database — the in-app research
+assistant is deterministic keyword retrieval over the curated catalog.
