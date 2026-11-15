@@ -34,7 +34,7 @@ No raw NASA data files were downloaded: FLAMEGUARD SI is an evidence-discovery a
 teaching aid that makes explicit where NASA validation is still missing.
 ```
 
-*(181 words / ~1,070 characters)*
+*(135 words / 1,000 characters — within the 50–200 word suggestion)*
 
 ---
 
@@ -344,7 +344,7 @@ All other data, resources, code, and tools used:
 ## 8. Pre-submission checklist
 
 - [x] Project Name filled in
-- [x] Project Raw Summary written (181 words, under 1500 characters)
+- [x] Project Raw Summary written (135 words, 1,000 characters — under the 1,500 character limit)
 - [x] Demonstration uploaded to a public, no-login link — **29.52 s** (< 30 s) video, or ≤ 7 slides
 - [x] Public project link — live site (no password/registration) + public code repository
 - [x] Project Details completed for all six questions
