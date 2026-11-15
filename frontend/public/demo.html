@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07111d" />
+    <meta
+      name="description"
+      content="FLAMEGUARD SI - a 30-second demonstration of a source-grounded NASA microgravity combustion research explorer."
+    />
+    <title>FLAMEGUARD SI | 30-second demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #080d1b;
+        --panel: #111b2e;
+        --line: #26344c;
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --orange: #ff7a30;
+        --blue: #38bdf8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(circle at 20% -10%, #14243f 0%, var(--bg) 55%);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+      }
+      main {
+        width: min(960px, 100%);
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        letter-spacing: 0.02em;
+      }
+      h1 span {
+        color: var(--orange);
+      }
+      p.lead {
+        margin: 0 0 22px;
+        color: var(--muted);
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+      .frame {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        overflow: hidden;
+        background: #000;
+        box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+      }
+      video {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #000;
+      }
+      .bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+        align-items: center;
+        margin-top: 18px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 0.9rem;
+      }
+      a {
+        color: var(--blue);
+      }
+      .tag {
+        display: inline-block;
+        padding: 3px 10px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.75rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      ol {
+        margin: 10px 0 0;
+        padding-left: 20px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>FLAMEGUARD <span>SI</span></h1>
+      <p class="lead">
+        Space safety intelligence for NASA microgravity combustion research &mdash; a
+        30-second demonstration. The recording is a screen capture of the live
+        application: a hand-curated catalog of 26 NASA PSI combustion investigations,
+        rendered as an explorable, source-linked safety-intelligence workspace.
+      </p>
+
+      <div class="frame">
+        <video controls autoplay muted loop playsinline preload="auto">
+          <source src="./FLAMEGUARD-SI-demo-30s.webm" type="video/webm" />
+          Your browser cannot play this WebM video. Use the direct link below.
+        </video>
+      </div>
+
+      <div class="bar">
+        <span class="tag">29.5 seconds</span>
+        <a href="./FLAMEGUARD-SI-demo-30s.webm" download>Direct video link</a>
+        <a href="http://152.42.160.210:44444/">Open the live app</a>
+        <a href="https://github.com/khaingqhtwe1556-dot/flame-in-freefall">Source code</a>
+      </div>
+
+      <ol>
+        <li><strong>Mission control</strong> &mdash; catalog-derived counts and evidence caveats.</li>
+        <li><strong>3D flame lab</strong> &mdash; gravity, oxygen, and airflow drive an illustrative flame.</li>
+        <li><strong>Earth vs microgravity</strong> &mdash; the same flame at both gravities, with visibly different shape.</li>
+      </ol>
+    </main>
+  </body>
+</html>
