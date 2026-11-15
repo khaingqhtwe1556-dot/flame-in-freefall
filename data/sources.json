@@ -1,0 +1,91 @@
+{
+  "researchSources": [
+    {
+      "id": "S1",
+      "title": "NASA Physical Sciences Informatics - combustion search",
+      "kind": "Repository",
+      "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+      "relevance": "Investigation metadata and file inventories."
+    },
+    {
+      "id": "S2",
+      "title": "NASA Glenn - Combustion Science",
+      "kind": "Science overview",
+      "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "relevance": "Program context, facilities, and experiment families."
+    },
+    {
+      "id": "S3",
+      "title": "NASA ScienceCasts - combustion on the ISS",
+      "kind": "Video",
+      "url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+      "relevance": "Introductory video; detailed claims are not indexed without transcript review."
+    },
+    {
+      "id": "S4",
+      "title": "NASA Researcher's Guide to Combustion Science",
+      "kind": "Technical guide",
+      "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+      "relevance": "Technical and historical experiment context; October 2015 edition."
+    },
+    {
+      "id": "S5",
+      "title": "NASA Apollo 1 safety history",
+      "kind": "Incident history",
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+      "relevance": "Ground-test cabin fire, egress, oxygen-rich environment, and safety process."
+    },
+    {
+      "id": "S6",
+      "title": "NASA Apollo 13 safety history",
+      "kind": "Incident history",
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+      "relevance": "Oxygen-system reliability and mission contingency; not a cabin-fire experiment."
+    },
+    {
+      "id": "S7",
+      "title": "NASA history - Fire aboard Space Station Mir",
+      "kind": "Incident history",
+      "url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+      "relevance": "On-orbit oxygen-generator fire, smoke, response, and egress."
+    },
+    {
+      "id": "S8",
+      "title": "NASA Spinoff - Fireman's Air Tanks",
+      "kind": "Technology transfer",
+      "url": "https://spinoff.nasa.gov/node/9582",
+      "relevance": "Historical breathing-air equipment and firefighter human factors."
+    },
+    {
+      "id": "S9",
+      "title": "NASA Spinoff - Fire Detector",
+      "kind": "Technology transfer",
+      "url": "https://spinoff.nasa.gov/node/9407",
+      "relevance": "Historical particle-detection and alarm technology transfer."
+    },
+    {
+      "id": "S10",
+      "title": "NASA Spinoff - New Technology for the Fire Attire",
+      "kind": "Technology transfer",
+      "url": "https://spinoff.nasa.gov/node/9918",
+      "relevance": "Historical Project FIRES protective-material transfer."
+    }
+  ],
+  "historicalIncidents": [
+    {
+      "sourceId": "S5",
+      "title": "Apollo 1",
+      "year": 1967
+    },
+    {
+      "sourceId": "S6",
+      "title": "Apollo 13",
+      "year": 1970
+    },
+    {
+      "sourceId": "S7",
+      "title": "Mir station fire",
+      "year": 1997
+    }
+  ]
+}

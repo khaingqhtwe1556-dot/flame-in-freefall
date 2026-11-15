@@ -1,0 +1,580 @@
+[
+  {
+    "accession": "PSI-20",
+    "title": "ACME Burning Rate Emulator",
+    "acronym": "BRE",
+    "category": "material-flammability",
+    "summary": "Porous burners emulate condensed-material burning under quiescent reduced-gravity conditions.",
+    "objective": "Compare burning and extinction behavior across fuel feeds and oxygen/nitrogen conditions.",
+    "fuelsAndMaterials": [
+      "Methane/nitrogen",
+      "Ethylene/nitrogen"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "TXT",
+      "CSV",
+      "MP4"
+    ],
+    "listedFileEntries": 2551,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-25",
+    "title": "Burning and Suppression of Solids II",
+    "acronym": "BASS-II",
+    "category": "material-flammability",
+    "summary": "Examines ignition, growth, spread, and extinction of solid fuels in low-speed forced flow.",
+    "objective": "Relate solid-fuel behavior to oxygen, flow, fuel properties, sample geometry, and screening tests.",
+    "fuelsAndMaterials": [
+      "Solid fuels; specific samples require record-level review"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "MP4",
+      "ZIP",
+      "PDF"
+    ],
+    "listedFileEntries": 711,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-26",
+    "title": "Burning and Suppression of Solids",
+    "acronym": "BASS",
+    "category": "material-flammability",
+    "summary": "Studies solid-fuel flame spread and inert-gas suppression across geometry, preheating, and flow.",
+    "objective": "Understand how flame geometry and suppressant delivery interact in reduced gravity.",
+    "fuelsAndMaterials": [
+      "Solid fuels; specific samples require record-level review",
+      "Inert gaseous suppressant"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "MP4",
+      "ZIP",
+      "PDF"
+    ],
+    "listedFileEntries": 211,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-98",
+    "title": "Spacecraft Fire Experiment I",
+    "acronym": "SAFFIRE-I",
+    "category": "material-flammability",
+    "summary": "Large-scale fire-growth investigation comparing reduced-gravity flammability with a normal-gravity screening test.",
+    "objective": "Characterize large-scale fire growth and low-gravity material flammability.",
+    "fuelsAndMaterials": [
+      "Material samples; run-specific details not verified here"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "PDF"
+    ],
+    "listedFileEntries": 81,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-99",
+    "title": "Spacecraft Fire Experiment II",
+    "acronym": "SAFFIRE-II",
+    "category": "material-flammability",
+    "summary": "Distinct SAFFIRE investigation record focused on large-scale fire growth and material flammability.",
+    "objective": "Compare reduced-gravity fire growth and material flammability with normal-gravity screening.",
+    "fuelsAndMaterials": [
+      "Material samples; run-specific details not verified here"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "PDF",
+      "SPREADSHEET"
+    ],
+    "listedFileEntries": 251,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-100",
+    "title": "Spacecraft Fire Experiment III",
+    "acronym": "SAFFIRE-III",
+    "category": "material-flammability",
+    "summary": "Third distinct SAFFIRE investigation record for large-scale fire growth and low-gravity flammability.",
+    "objective": "Compare reduced-gravity fire growth and material flammability with normal-gravity screening.",
+    "fuelsAndMaterials": [
+      "Material samples; run-specific details not verified here"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "SPREADSHEET",
+      "PDF"
+    ],
+    "listedFileEntries": 91,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-106",
+    "title": "Structure and Liftoff in Combustion Experiments",
+    "acronym": "SLICE",
+    "category": "gaseous-flames",
+    "summary": "Studies diffusion-flame structure, stabilization, liftoff, dilution, soot, and radiative heat loss.",
+    "objective": "Characterize laminar flames and provide data for combustion-model validation.",
+    "fuelsAndMaterials": [
+      "Multiple gaseous fuels; consult the investigation record for specific runs"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "DAT",
+      "ZIP",
+      "TXT",
+      "CSV"
+    ],
+    "listedFileEntries": 23401,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-47",
+    "title": "Dust and Aerosol Measurement Feasibility Test",
+    "acronym": "DAFT / DAFT-2",
+    "category": "smoke-detection",
+    "summary": "Tests particle-counter performance in microgravity and compares measurements with a control instrument.",
+    "objective": "Assess aerosol measurement feasibility and support discrimination of combustion particles from dust.",
+    "gravityContext": "microgravity",
+    "formats": [
+      "BMP",
+      "ZIP",
+      "MP4",
+      "SPREADSHEET"
+    ],
+    "listedFileEntries": 351,
+    "safetyRelationship": "direct",
+    "fuelsAndMaterials": null,
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-102",
+    "title": "Smoke Aerosol Measurement Experiment",
+    "acronym": "SAME",
+    "category": "smoke-detection",
+    "summary": "Measures smoke-particle size distributions for spacecraft materials under varied test conditions.",
+    "objective": "Relate sample temperature, airflow, and smoke residence time to particle signatures and detector needs.",
+    "fuelsAndMaterials": [
+      "Spacecraft materials; specific samples require record-level review"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "XLS",
+      "PDF"
+    ],
+    "listedFileEntries": 111,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-101",
+    "title": "Smoke Aerosol Measurement Experiment - Research",
+    "acronym": "SAME-R",
+    "category": "smoke-detection",
+    "summary": "Extends SAME with modified materials, conditions, and diagnostics; file descriptions include flight and microscopy assets.",
+    "objective": "Characterize smoke aerosols while preserving run, sample, and diagnostic provenance.",
+    "fuelsAndMaterials": [
+      "Spacecraft materials; specific samples require record-level review"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "XLS",
+      "ZIP",
+      "PPTX",
+      "CSV",
+      "MP4"
+    ],
+    "listedFileEntries": 371,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-115",
+    "title": "SAME-Data Smoke Modeling",
+    "acronym": "SAME smoke model",
+    "category": "modeling",
+    "summary": "Ground-based particle-growth modeling considers cross-flow, thermophoresis, settling, and wake geometry.",
+    "objective": "Simulate dibutyl-phthalate particle growth under Earth and microgravity conditions.",
+    "fuelsAndMaterials": [
+      "Dibutyl phthalate aerosol"
+    ],
+    "gravityContext": "ground",
+    "formats": [
+      "DAT",
+      "ZIP"
+    ],
+    "listedFileEntries": 51,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-69",
+    "title": "Flame Extinguishment Experiment",
+    "acronym": "FLEX",
+    "category": "droplet-combustion",
+    "summary": "Studies liquid-droplet flammability limits, burning, and gaseous-suppressant behavior.",
+    "objective": "Measure burning, extinction, radiation, soot, and temperature for droplet combustion.",
+    "fuelsAndMaterials": [
+      "Heptane",
+      "Methanol",
+      "Nitrogen, carbon dioxide, helium, or xenon diluents"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "TXT",
+      "ZIP",
+      "MP4",
+      "PDF"
+    ],
+    "listedFileEntries": 8851,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-68",
+    "title": "Flame Extinguishment Experiment II",
+    "acronym": "FLEX-2",
+    "category": "droplet-combustion",
+    "summary": "Extends droplet-combustion work to bi-component fuels, extinction boundaries, soot-shell dynamics, and droplet interactions.",
+    "objective": "Study gas- and liquid-phase behavior and validate combustion models across droplet regimes.",
+    "fuelsAndMaterials": [
+      "Bi-component liquid fuels; specific blends require record-level review"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "TXT",
+      "ZIP"
+    ],
+    "listedFileEntries": 10701,
+    "safetyRelationship": "direct",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-39",
+    "title": "Cool Flames Investigation",
+    "acronym": "CFI",
+    "category": "droplet-combustion",
+    "summary": "Examines low-temperature droplet combustion, extinction, and soot behavior across pressure and dilution conditions.",
+    "objective": "Study n-dodecane and n-dodecane/isododecane cool flames from 0.25 to 5 atm.",
+    "fuelsAndMaterials": [
+      "n-Dodecane",
+      "n-Dodecane/isododecane"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "TXT",
+      "ZIP",
+      "METADATA",
+      "MP4"
+    ],
+    "listedFileEntries": 3101,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-117",
+    "title": "FLEX Cool-Flame CFD",
+    "acronym": "FLEX CFD",
+    "category": "modeling",
+    "summary": "Ground-based OpenFOAM follow-on modeling of n-alkane droplet cool flames against FLEX observations.",
+    "objective": "Analyze ignition delay, oscillation, flame stand-off, and extinction under modeled conditions.",
+    "fuelsAndMaterials": [
+      "n-Alkane droplets"
+    ],
+    "gravityContext": "ground",
+    "formats": [
+      "ZIP"
+    ],
+    "listedFileEntries": 1,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-142",
+    "title": "FLEX-Based Cool-Flame Study",
+    "acronym": "FLEX cool-flame analysis",
+    "category": "modeling",
+    "summary": "Secondary analysis combining simulations and ground counterflow-flame experiments using FLEX context.",
+    "objective": "Examine cool-flame transitions and extinction.",
+    "gravityContext": "ground",
+    "formats": [
+      "DOCX",
+      "ZIP",
+      "XLSX"
+    ],
+    "listedFileEntries": 4,
+    "safetyRelationship": "supporting",
+    "fuelsAndMaterials": null,
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-10",
+    "title": "ACME Flame Design",
+    "acronym": "Flame Design",
+    "category": "gaseous-flames",
+    "summary": "Studies normal and inverse spherical diffusion flames across fuel, flow, dilution, and pressure conditions.",
+    "objective": "Investigate soot inception and extinction behavior.",
+    "fuelsAndMaterials": [
+      "Methane",
+      "Ethylene"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "TXT",
+      "CSV",
+      "MDIPSUG"
+    ],
+    "listedFileEntries": 3807,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-21",
+    "title": "ACME Coflow Laminar Diffusion Flame",
+    "acronym": "CLD",
+    "category": "gaseous-flames",
+    "summary": "Characterizes methane and ethylene coflow flames from near-extinction to highly sooting conditions.",
+    "objective": "Relate fuel dilution and flow to flame and soot structure for model development.",
+    "fuelsAndMaterials": [
+      "Methane",
+      "Ethylene"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "TXT",
+      "CSV",
+      "MP4",
+      "LOG"
+    ],
+    "listedFileEntries": 4851,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-22",
+    "title": "ACME E-FIELD Flames",
+    "acronym": "E-FIELD",
+    "category": "gaseous-flames",
+    "summary": "Varies electric-field strength and polarity, fuel, and flow to study flame response, stability, and soot.",
+    "objective": "Measure chemi-ion current and flame behavior in electric fields.",
+    "fuelsAndMaterials": [
+      "Methane",
+      "Ethylene"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "TXT",
+      "LOG",
+      "CSV",
+      "MP4"
+    ],
+    "listedFileEntries": 3251,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-23",
+    "title": "ACME Spherical Diffusion Flame",
+    "acronym": "s-Flame",
+    "category": "gaseous-flames",
+    "summary": "Compares soot-free and sooty spherical-flame structure, dynamics, extinction, and model behavior.",
+    "objective": "Provide flame-structure and transport/chemical-kinetic model validation evidence.",
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "ASC",
+      "TXT",
+      "LOG",
+      "CSV"
+    ],
+    "listedFileEntries": 6801,
+    "safetyRelationship": "supporting",
+    "fuelsAndMaterials": null,
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-107",
+    "title": "Smoke Points in Coflow Experiment",
+    "acronym": "SPICE",
+    "category": "gaseous-flames",
+    "summary": "Studies non-buoyant jet-flame smoke points and sooting propensity across fuels and flow conditions.",
+    "objective": "Relate soot formation to fuel mixtures, burner size, coflow, and fuel/air flow.",
+    "fuelsAndMaterials": [
+      "Ethylene",
+      "Propane",
+      "Propylene mixtures"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "ZIP",
+      "XLS",
+      "PDF",
+      "MP4"
+    ],
+    "listedFileEntries": 211,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-159",
+    "title": "ACME Cool Flames Investigation with Gases",
+    "acronym": "CFI-G",
+    "category": "gaseous-flames",
+    "summary": "Studies gaseous cool diffusion flames in normal and inverse configurations with CFD support.",
+    "objective": "Measure cool-flame behavior across fuel mixtures and flow conditions.",
+    "fuelsAndMaterials": [
+      "Propane",
+      "n-Butane",
+      "n-Pentane"
+    ],
+    "gravityContext": "microgravity",
+    "formats": [
+      "TXT",
+      "ZIP",
+      "CSV",
+      "MDIPSUG"
+    ],
+    "listedFileEntries": 3756,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-60",
+    "title": "SPICE Image and Model Analysis",
+    "acronym": "SPICE analysis",
+    "category": "modeling",
+    "summary": "Uses image processing and calibrated SPICE light data to estimate soot-temperature fields.",
+    "objective": "Analyze soot differences between 1-g and 0-g flames.",
+    "gravityContext": "mixed",
+    "formats": [
+      "ZIP"
+    ],
+    "listedFileEntries": 1,
+    "safetyRelationship": "supporting",
+    "fuelsAndMaterials": null,
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-62",
+    "title": "BASS Flame-Spread Modeling",
+    "acronym": "BASS modeling",
+    "category": "modeling",
+    "summary": "Develops and validates flamelet-generated-manifold methods against BASS and tomography evidence.",
+    "objective": "Model concurrent flame spread while separating simulation output from source measurements.",
+    "fuelsAndMaterials": [
+      "Solid fuels; specific samples require record-level review"
+    ],
+    "gravityContext": "ground",
+    "formats": [
+      "ZIP"
+    ],
+    "listedFileEntries": 1,
+    "safetyRelationship": "supporting",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-108",
+    "title": "Surface Tension Driven Convection Experiment 1",
+    "acronym": "STDCE-1",
+    "category": "adjacent-science",
+    "summary": "Studies thermocapillary flow and temperature fields in constant-temperature and constant-flux configurations.",
+    "objective": "Investigate surface-tension-driven convection; not a direct fire-safety experiment.",
+    "gravityContext": "microgravity",
+    "formats": [
+      "MP4",
+      "PDF"
+    ],
+    "listedFileEntries": 51,
+    "safetyRelationship": "none",
+    "fuelsAndMaterials": null,
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  },
+  {
+    "accession": "PSI-181",
+    "title": "Solder Structure and Properties",
+    "acronym": "Solder structure",
+    "category": "adjacent-science",
+    "summary": "Examines solder microstructure across terrestrial and microgravity settings and temperature conditions.",
+    "objective": "Study Pb-Sn and lead-free solder properties; not a combustion investigation.",
+    "fuelsAndMaterials": [
+      "Pb-Sn solder",
+      "Lead-free solder"
+    ],
+    "gravityContext": "mixed",
+    "formats": [
+      "ZIP"
+    ],
+    "listedFileEntries": 340,
+    "safetyRelationship": "none",
+    "availability": "metadata-files-unverified",
+    "sourceId": "S1",
+    "sourceUrl": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+  }
+]

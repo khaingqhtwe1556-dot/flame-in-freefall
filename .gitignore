@@ -1,0 +1,23 @@
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/tests/__pycache__/
+backend/data/*.db
+.pytest_cache/
+*.py[cod]
+
+# Local environment and generated data
+.env
+.env.*
+!.env.example
+data/raw/
+data/processed/
+reports/generated/
+
+# Editor and OS files
+.DS_Store
+.vscode/
