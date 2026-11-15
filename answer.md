@@ -42,23 +42,31 @@ teaching aid that makes explicit where NASA validation is still missing.
 
 ### 3.1 Project Demonstration — video (29.5 s, under the 30 s limit)
 
+**Primary link — player page on the live deployment (public, no login, plays inline):**
+```
+http://152.42.160.210:44444/demo.html
+```
+
+**Platform-hosted backup — GitHub raw file (public, no login):**
 ```
 https://raw.githubusercontent.com/khaingqhtwe1556-dot/flame-in-freefall/feat/space-apps-submission/frontend/public/FLAMEGUARD-SI-demo-30s.webm
 ```
 
-> Public raw file on the public GitHub repository — no login, no registration.
-> Runtime 29.52 s, 1280×720, VP9, silent. Storyboard:
-> **0–7 s** mission-control overview (catalog stats) → **7–19 s** 3D flame lab, flame
-> forming while gravity/oxygen/airflow sliders move → **19–29.5 s** "Earth vs
-> microgravity", the same flame rendered at both gravities with visibly different
-> shape.
-> A full-length 2 min 30 s recording is also kept at
-> `exports/FLAMEGUARD-SI-demo.webm` (too long for the 30 s rule — link the trimmed cut).
-
-**Backup link (same file, different host):**
+**Direct file on the deployment (correct `video/webm` MIME, plays inline):**
 ```
 http://152.42.160.210:44444/FLAMEGUARD-SI-demo-30s.webm
 ```
+
+> Runtime **29.52 s**, 1280×720, VP9, silent — under the 30 s rule.
+> Storyboard: **0–7 s** mission-control overview (catalog stats) → **7–19 s** 3D flame
+> lab, flame forming while gravity/oxygen/airflow sliders move → **19–29.5 s** "Earth vs
+> microgravity", the same flame rendered at both gravities with visibly different shape.
+> A full-length 2 min 30 s recording is also kept at
+> `exports/FLAMEGUARD-SI-demo.webm` (too long for the 30 s rule — link the trimmed cut).
+>
+> **Optional upgrade:** if you prefer a YouTube/Drive link (some reviewers prefer a
+> familiar host), upload `FLAMEGUARD-SI-demo-30s.webm` to an unlisted YouTube video or a
+> Drive/Dropbox link with public view permissions and paste that URL here instead.
 
 ### 3.2 Project — live application
 
@@ -77,6 +85,8 @@ https://github.com/khaingqhtwe1556-dot/flame-in-freefall
 
 > Public repository. Front end in `frontend/` (React + TypeScript + Vite), FastAPI
 > service in `backend/`, shared hand-curated catalog in `data/`.
+> The submission branch (`feat/space-apps-submission`) holds this `answer.md`, the
+> 29.5 s demo cut, and the demo player page; `main` holds the application itself.
 
 ---
 
